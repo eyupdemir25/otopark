@@ -1,0 +1,13 @@
+Gelen arabaların giriş saati ve tarihi tutularak çıkış saatine göre ücret hesaplaması yapılacak.
+Abone sistemi olacak, araç abone ise ücret hesaplaması yapılmayacak, 
+Oto yıkama gibi ek hizmetler olacak
+
+Veritabanı yapısı
+Tablolar => 
+
+Aractipleri  --   Id: Int , AracTipi : String - SaatUcreti : Money
+Kayitlar     --  Id, AracPlaka, AracTipi, Tarih, GirisSaati, CikisSaati
+Kullaniclar  -- Id, AdSoyad, k_adi, parola, yetki, telefon
+
+
+Aboneler     -- Id, adSoyad, Telefon, aracPlaka, aracTipi, baslangicTarihi, bitisTarihi
