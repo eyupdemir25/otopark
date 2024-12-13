@@ -1,0 +1,10 @@
+C:\Users\LAB\Desktop\otopark\otopark\otopark\bin\Debug\otopark.exe.config
+C:\Users\LAB\Desktop\otopark\otopark\otopark\bin\Debug\otopark.exe
+C:\Users\LAB\Desktop\otopark\otopark\otopark\bin\Debug\otopark.pdb
+C:\Users\LAB\Desktop\otopark\otopark\otopark\obj\Debug\otopark.csproj.AssemblyReference.cache
+C:\Users\LAB\Desktop\otopark\otopark\otopark\obj\Debug\otopark.Form1.resources
+C:\Users\LAB\Desktop\otopark\otopark\otopark\obj\Debug\otopark.Properties.Resources.resources
+C:\Users\LAB\Desktop\otopark\otopark\otopark\obj\Debug\otopark.csproj.GenerateResource.cache
+C:\Users\LAB\Desktop\otopark\otopark\otopark\obj\Debug\otopark.csproj.CoreCompileInputs.cache
+C:\Users\LAB\Desktop\otopark\otopark\otopark\obj\Debug\otopark.exe
+C:\Users\LAB\Desktop\otopark\otopark\otopark\obj\Debug\otopark.pdb
