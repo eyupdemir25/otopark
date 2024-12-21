@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.11.35222.181
+VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "otopark", "otopark\otopark.csproj", "{93DFFBB8-8699-4734-9D79-01F9C1BEA60C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "otopark", "otopark\otopark.csproj", "{C4D4D955-EC36-4CBA-A2BD-1C683189B9A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{93DFFBB8-8699-4734-9D79-01F9C1BEA60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93DFFBB8-8699-4734-9D79-01F9C1BEA60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93DFFBB8-8699-4734-9D79-01F9C1BEA60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93DFFBB8-8699-4734-9D79-01F9C1BEA60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D4D955-EC36-4CBA-A2BD-1C683189B9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D4D955-EC36-4CBA-A2BD-1C683189B9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D4D955-EC36-4CBA-A2BD-1C683189B9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D4D955-EC36-4CBA-A2BD-1C683189B9A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {65FA8079-47FF-4754-A4CB-D6C9748C6FC4}
 	EndGlobalSection
 EndGlobal

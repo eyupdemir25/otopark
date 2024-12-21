@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{93DFFBB8-8699-4734-9D79-01F9C1BEA60C}</ProjectGuid>
+    <ProjectGuid>{C4D4D955-EC36-4CBA-A2BD-1C683189B9A3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>otopark</RootNamespace>
     <AssemblyName>otopark</AssemblyName>
@@ -46,25 +46,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="arac_cikis.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="arac_cikis.Designer.cs">
+      <DependentUpon>arac_cikis.cs</DependentUpon>
     </Compile>
-    <Compile Include="Giriş.cs">
+    <Compile Include="arac_fiyat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Giriş.Designer.cs">
-      <DependentUpon>Giriş.cs</DependentUpon>
+    <Compile Include="arac_fiyat.Designer.cs">
+      <DependentUpon>arac_fiyat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="araç_kayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="araç_kayıt.Designer.cs">
+      <DependentUpon>araç_kayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giris.Designer.cs">
+      <DependentUpon>giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="arac_cikis.resx">
+      <DependentUpon>arac_cikis.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Giriş.resx">
-      <DependentUpon>Giriş.cs</DependentUpon>
+    <EmbeddedResource Include="arac_fiyat.resx">
+      <DependentUpon>arac_fiyat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="araç_kayıt.resx">
+      <DependentUpon>araç_kayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giris.resx">
+      <DependentUpon>giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,6 +115,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otopark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daire-buyuklugune--8230-20210315145932.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\{A7783DA2-5A7F-4B7F-8234-09E4D0504EEE}.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\{8895A34F-26AC-485B-829F-A6EFBB1D11BE}.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car-rental.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-icon-silhouette.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
